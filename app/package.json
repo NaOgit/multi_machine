@@ -1,8 +1,8 @@
-"repository": {
-  "type": "git",
-  "url": "git://github.com/NaOgit/multi_machine"
-}
 {
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/NaOgit/multi_machine"
+  },
   "name": "multi_machine",
   "version": "1.0.0",
   "private": true,
