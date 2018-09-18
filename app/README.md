@@ -1,4 +1,4 @@
-Nattinan Oukongka
+Nattinan 
 
 # Sparta Node Sample App
 
