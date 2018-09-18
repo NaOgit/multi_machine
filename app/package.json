@@ -1,6 +1,11 @@
+"repository": {
+  "type": "git",
+  "url": "git://github.com/NaOgit/multi_machine"
+}
 {
-  "name": "solution-code",
+  "name": "multi_machine",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
