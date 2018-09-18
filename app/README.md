@@ -1,4 +1,4 @@
-Nattinan O
+Nattinan Ou
 
 # Sparta Node Sample App
 
