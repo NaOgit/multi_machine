@@ -1,4 +1,4 @@
-#!/bin/bash -xe
+#!/bin/bash set +e
 
 # Update the sources list
 sudo apt-get update -y
