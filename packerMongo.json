@@ -31,19 +31,6 @@
       "type": "chef-solo",
       "cookbook_paths": ["./cookbooks"],
       "run_list": ["mongo::default"]
-    },
-    {
-      "type": "shell",
-      "inline": ["mkdir /home/ubuntu/db"]
-    },
-    {
-      "type": "file",
-      "source": "db/",
-      "destination": "/home/ubuntu/db"
-    },
-    {
-      "type": "shell",
-      "inline": ["cd /home/ubuntu/db"]
     }
   ]
 }
