@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Update the sources list
 sudo apt-get update -y
@@ -20,6 +20,8 @@ sudo apt-get install nodejs -y
 # install pm2
 sudo npm install pm2 -g
 
-sudo ln -s /home/ubuntu/environment/nginx.conf /etc/nginx/conf.d/nginx.conf
+sudo rm /etc/nginx/sites-available/default
+
+sudo ln -s ~/environment/app/default /etc/nginx/sites-available/default
 
 sudo nginx -s reload
