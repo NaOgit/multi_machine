@@ -1,10 +1,10 @@
 DEPENDENCIES
   mongo
     git: git@github.com:NaOgit/mongo_cookbook.git
-    revision: 7e01f5cc9b7dbf3483533529e6c15105b2612684
+    revision: 45fee219bbbf4aa38b577d625b25f4f15f114a9d
   node
     git: git@github.com:NaOgit/node_cookbook.git
-    revision: 2b64ccce81f33e520f2600bd7ed541eccc53c464
+    revision: a360c9d8366c5e9446738d64f044036a9f1c5ee7
 
 GRAPH
   ark (4.0.0)

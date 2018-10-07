@@ -27,11 +27,11 @@ template "/lib/systemd/system/mongod.service" do
   source "mongod.service.erb"
   notifies(:restart, "service[mongod]")
 end
-
+# software
 package "mongodb-org" do
   action [:install, :upgrade]
 end
-
+# service
 service "mongod" do
   action [:enable, :start]
 end
